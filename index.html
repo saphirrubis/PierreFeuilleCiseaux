@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PierreFeuilleCiseaux</title>
+    <link rel="stylesheet" href="styles.css">
+     <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="score">
+        <p>Vous</p>
+        <p>IA</p>
+        <p id="s-User">0</p>
+        <p id="s-Ia">0</p>
+        <div id="reset">Recommencer</div>
+    </div>
+   </header>
+    <main>    
+        <div class="jeu">
+            <div class="choix">
+            <div class="button btn-user" id="pierre">
+                <p>Pierre</p>
+            </div>
+            <div class="button btn-user" id="feuille">
+                <p>Feuille</p>
+            </div>
+            <div class="button btn-user" id="ciseaux">
+                <p>Ciseaux</p>
+            </div>
+        </div>
+        <div class="choix">
+            <div class="button btn-Ia" id="Iapierre">
+                <p>Pierre</p>
+            </div>
+            <div class="button btn-Ia" id="Iafeuille">
+                <p>Feuille</p>
+            </div>
+            <div class="button btn-Ia" id="Iaciseaux">
+                <p>Ciseaux</p>
+            </div>
+        </div>
+        </div>
+    </main>
+    <footer> 
+        <div class="action">
+        <p id="message">A vous de jouer !</p>
+        <div id="next">Tour suivant</div>
+    </div>
+</footer>
+</body>
+</html>
